@@ -68,7 +68,7 @@ PrefabInstance:
       addedObject: {fileID: 2049124410136624}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7d7b6793cdd278a4084fd1e487655b7e, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5156165076425786780}
+      addedObject: {fileID: 7991034747379137324}
   m_SourcePrefab: {fileID: 100100000, guid: 7d7b6793cdd278a4084fd1e487655b7e, type: 3}
 --- !u!1 &3594735639217801864 stripped
 GameObject:
@@ -122,7 +122,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.69049025
   m_Center: {x: -0.012967318, y: -0.11225736, z: -0.06932908}
---- !u!114 &5156165076425786780
+--- !u!114 &7991034747379137324
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,8 +131,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3594735639217801864}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34c444648fa008d42ba6b1ddcec29b58, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a21a98f673d2944283bd3080bf92a54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _name: KeyItem
-  value: 0
+  value: 20
+  waveNumber: 1
+  rotationSpeed: 100
+  floatAmplitude: 0.3
+  floatSpeed: 2
+  enableFloating: 1
+  enableRotation: 1
+  collectSound: {fileID: 8300000, guid: 3e35bd5c051e93f4b95075c2a767c0c5, type: 3}
+  Value: 10
